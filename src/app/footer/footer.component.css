@@ -1,0 +1,36 @@
+.footerNav {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  z-index: 1;
+  height: 53px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+.footerNav button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footerNav button span {
+  position: relative;
+  top: 3px;
+}
+.footerNav button i {
+  font-size: 17px;
+}
+.footerNav button .fa-arrow-right {
+  transform: rotateZ(-45deg);
+}
+.footerNav button .fa-arrow-left {
+  transform: rotateZ(-45deg);
+}/*# sourceMappingURL=footer.component.css.map */
